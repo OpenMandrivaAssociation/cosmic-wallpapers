@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Name:           cosmic-wallpapers
 Version:        1.0.0
 Release:        0.alpha.2.0
