@@ -2,7 +2,7 @@
 
 Name:           cosmic-wallpapers
 Version:        1.0.0
-Release:        0.alpha.2.0
+Release:        0.alpha.2.1
 Group:          Wallpapers/COSMIC
 Summary:        Wallpapers for the COSMIC Desktop Environment
 License:        CC-BY-4.0 OR  CC0-1.0
