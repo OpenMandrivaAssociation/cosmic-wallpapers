@@ -1,20 +1,20 @@
-%undefine _debugsource_packages
-
 Name:           cosmic-wallpapers
 Version:        1.0.0
-Release:        0.alpha.5.1
+%define beta alpha.6
+Release:        %{?beta:0.%{beta}.}1
 Group:          Wallpapers/COSMIC
 Summary:        Wallpapers for the COSMIC Desktop Environment
 License:        CC-BY-4.0 OR  CC0-1.0
 URL:            https://github.com/pop-os/cosmic-wallpapers
-Source0:        https://github.com/pop-os/cosmic-screenshot/archive/epoch-%{version}-alpha.5.1/%{name}-epoch-%{version}-alpha.5.1.tar.gz
+Source0:        https://github.com/pop-os/cosmic-wallpapers/archive/epoch-%{version}%{?beta:-%{beta}}/%{name}-epoch-%{version}%{?beta:-%{beta}}.tar.gz
 BuildRequires:  make
+BuildArch:	noarch
 
 %description
 %{summary}.
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.5.1 -p1
+%autosetup -n %{name}-epoch-%{version}%{?beta:-%{beta}} -p1
 
 %build
 # nothing to build
