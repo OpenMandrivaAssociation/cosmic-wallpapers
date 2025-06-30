@@ -16,7 +16,7 @@ BuildArch:	noarch
 %{summary}.
 
 %prep
-%autosetup -n %{name} -p1
+%autosetup -n %{name}-epoch-%{version}-%{beta} -p1
 
 %build
 # nothing to build
