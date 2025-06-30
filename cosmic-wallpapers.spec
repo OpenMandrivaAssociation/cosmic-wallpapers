@@ -1,6 +1,6 @@
 Name:           cosmic-wallpapers
 Version:        1.0.0
-%define beta alpha.6
+%define beta alpha.7
 Release:        %{?beta:0.%{beta}.}2
 Group:          Wallpapers/COSMIC
 Summary:        Wallpapers for the COSMIC Desktop Environment
