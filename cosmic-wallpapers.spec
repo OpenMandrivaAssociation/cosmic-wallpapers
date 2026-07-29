@@ -1,5 +1,5 @@
 Name:           cosmic-wallpapers
-Version:        1.0.2
+Version:        1.5.0
 #define beta beta.5
 Release:        %{?beta:0.%{beta}.}1
 Group:          Wallpapers/COSMIC
